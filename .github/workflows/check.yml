@@ -1,0 +1,20 @@
+name: check
+on: [push, pull_request]
+jobs:
+  schematic:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: { python-version: "3.12" }
+      - run: pip install shapely matplotlib
+      - name: Netlist and structure check
+        run: cd hardware && python3 validate_sheets.py
+      - name: BOM stays in sync with the schematic
+        run: |
+          cd hardware && python3 make_bom.py
+          git diff --exit-code ../docs/bom.csv
+      - name: Outline regenerates identically
+        run: |
+          cd mechanical && python3 butterfly_outline.py
+          git diff --exit-code butterfly_outline.svg butterfly_outline.dxf butterfly_edge_cuts.txt

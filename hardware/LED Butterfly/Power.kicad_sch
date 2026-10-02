@@ -1,0 +1,4021 @@
+(kicad_sch
+	(version 20260306)
+	(generator "eeschema")
+	(generator_version "10.0")
+	(uuid "d869e0f6-c70c-4dba-ab37-955922061000")
+	(paper "A3")
+
+	(lib_symbols
+	(symbol "butterfly:AP2112K-3.3"
+		(pin_numbers
+			(offset 0.508)
+		)
+		(pin_names
+			(offset 0.508)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "U"
+			(at 0.0000 8.8900 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "AP2112K-3.3TRG1"
+			(at 0.0000 -8.8900 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-5"
+			(at 0.0000 0.0000 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0.0000 0.0000 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "600 mA LDO regulator, fixed 3.3 V, SOT-23-5"
+			(at 0.0000 0.0000 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(symbol "AP2112K-3.3_0_1"
+		(rectangle
+			(start -7.62 6.35)
+			(end 7.62 -6.35)
+			(stroke
+				(width 0.254)
+				(type default)
+			)
+			(fill
+				(type background)
+			)
+		)
+		)
+		(symbol "AP2112K-3.3_1_1"
+		(pin power_in line
+			(at -10.16 2.54 0)
+			(length 2.54)
+			(name "VIN"
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(number "1"
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+		)
+		(pin input line
+			(at -10.16 -2.54 0)
+			(length 2.54)
+			(name "EN"
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(number "3"
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+		)
+		(pin power_out line
+			(at 10.16 2.54 180)
+			(length 2.54)
+			(name "VOUT"
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(number "5"
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+		)
+		(pin no_connect line
+			(at 10.16 -2.54 180)
+			(length 2.54)
+			(name "NC"
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(number "4"
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+		)
+		(pin power_in line
+			(at 0.00 -10.16 90)
+			(length 2.54)
+			(name "GND"
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(number "2"
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+		)
+		)
+	)
+	(symbol "butterfly:BATT_HOLDER"
+		(pin_numbers
+			(offset 0.508)
+		)
+		(pin_names
+			(offset 0.508)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "BT"
+			(at 0.0000 7.6200 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LIR2032"
+			(at 0.0000 -7.6200 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Battery:BatteryHolder_Keystone_3034_1x20mm"
+			(at 0.0000 0.0000 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0.0000 0.0000 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "LIR2032 rechargeable coin cell, Keystone 3034 SMT retainer. LIR ONLY - never fit a CR2032"
+			(at 0.0000 0.0000 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(symbol "BATT_HOLDER_0_1"
+		(rectangle
+			(start -5.08 5.08)
+			(end 5.08 -5.08)
+			(stroke
+				(width 0.254)
+				(type default)
+			)
+			(fill
+				(type background)
+			)
+		)
+		)
+		(symbol "BATT_HOLDER_1_1"
+		(pin passive line
+			(at -7.62 2.54 0)
+			(length 2.54)
+			(name "+"
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(number "1"
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+		)
+		(pin passive line
+			(at -7.62 -2.54 0)
+			(length 2.54)
+			(name "-"
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(number "2"
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+		)
+		)
+	)
+	(symbol "butterfly:C_1206"
+		(pin_numbers
+			(offset 0.508)
+		)
+		(pin_names
+			(offset 0.508)
+		(hide yes)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "C"
+			(at 0.0000 3.5550 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "C"
+			(at 0.0000 -3.5550 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
+			(at 0.0000 0.0000 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0.0000 0.0000 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Ceramic capacitor, 1206 (3216 metric)"
+			(at 0.0000 0.0000 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(symbol "C_1206_0_1"
+		(rectangle
+			(start -2.54 1.01)
+			(end 2.54 -1.01)
+			(stroke
+				(width 0.254)
+				(type default)
+			)
+			(fill
+				(type background)
+			)
+		)
+		)
+		(symbol "C_1206_1_1"
+		(pin passive line
+			(at -5.08 0.00 0)
+			(length 2.54)
+			(name "~"
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(number "1"
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+		)
+		(pin passive line
+			(at 5.08 0.00 180)
+			(length 2.54)
+			(name "~"
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(number "2"
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+		)
+		)
+	)
+	(symbol "butterfly:LED_1206"
+		(pin_numbers
+			(offset 0.508)
+		)
+		(pin_names
+			(offset 0.508)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "D"
+			(at 0.0000 3.8100 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LED"
+			(at 0.0000 -3.8100 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_1206_3216Metric"
+			(at 0.0000 0.0000 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0.0000 0.0000 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "LED, 1206. Pin 1 anode, pin 2 cathode"
+			(at 0.0000 0.0000 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(symbol "LED_1206_0_1"
+		(rectangle
+			(start -2.54 1.27)
+			(end 2.54 -1.27)
+			(stroke
+				(width 0.254)
+				(type default)
+			)
+			(fill
+				(type background)
+			)
+		)
+		)
+		(symbol "LED_1206_1_1"
+		(pin passive line
+			(at -5.08 0.00 0)
+			(length 2.54)
+			(name "A"
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(number "1"
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+		)
+		(pin passive line
+			(at 5.08 0.00 180)
+			(length 2.54)
+			(name "K"
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(number "2"
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+		)
+		)
+	)
+	(symbol "butterfly:MCP73831"
+		(pin_numbers
+			(offset 0.508)
+		)
+		(pin_names
+			(offset 0.508)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "U"
+			(at 0.0000 10.1600 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MCP73831T-2ACI/OT"
+			(at 0.0000 -10.1600 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-5"
+			(at 0.0000 0.0000 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0.0000 0.0000 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Single-cell Li-Ion/Li-Po charge controller, SOT-23-5. I_REG[mA] = 1000 / R_PROG[kOhm]"
+			(at 0.0000 0.0000 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(symbol "MCP73831_0_1"
+		(rectangle
+			(start -7.62 7.62)
+			(end 7.62 -7.62)
+			(stroke
+				(width 0.254)
+				(type default)
+			)
+			(fill
+				(type background)
+			)
+		)
+		)
+		(symbol "MCP73831_1_1"
+		(pin open_collector line
+			(at -10.16 5.08 0)
+			(length 2.54)
+			(name "STAT"
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(number "1"
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+		)
+		(pin power_in line
+			(at -10.16 0.00 0)
+			(length 2.54)
+			(name "VDD"
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(number "4"
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+		)
+		(pin input line
+			(at -10.16 -5.08 0)
+			(length 2.54)
+			(name "PROG"
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(number "5"
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+		)
+		(pin power_out line
+			(at 10.16 2.54 180)
+			(length 2.54)
+			(name "VBAT"
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(number "3"
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+		)
+		(pin power_in line
+			(at 10.16 -5.08 180)
+			(length 2.54)
+			(name "VSS"
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(number "2"
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+		)
+		)
+	)
+	(symbol "butterfly:PWR_FLAG"
+		(power)
+		(pin_numbers
+			(offset 0.508)
+		)
+		(pin_names
+			(offset 0.508)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "#FLG"
+			(at 0.0000 3.8100 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 0.0000 -3.8100 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 0.0000 0.0000 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0.0000 0.0000 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Marks a net as externally powered so ERC stops asking"
+			(at 0.0000 0.0000 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(symbol "PWR_FLAG_0_1"
+		(rectangle
+			(start -1.27 1.27)
+			(end 1.27 -1.27)
+			(stroke
+				(width 0.254)
+				(type default)
+			)
+			(fill
+				(type background)
+			)
+		)
+		)
+		(symbol "PWR_FLAG_1_1"
+		(pin power_out line
+			(at 0.00 -2.54 90)
+			(length 2.54)
+			(name "pwr"
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(number "1"
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+		)
+		)
+	)
+	(symbol "butterfly:R_1206"
+		(pin_numbers
+			(offset 0.508)
+		)
+		(pin_names
+			(offset 0.508)
+		(hide yes)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "R"
+			(at 0.0000 3.5550 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "R"
+			(at 0.0000 -3.5550 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
+			(at 0.0000 0.0000 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0.0000 0.0000 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor, 1206 (3216 metric)"
+			(at 0.0000 0.0000 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(symbol "R_1206_0_1"
+		(rectangle
+			(start -2.54 1.01)
+			(end 2.54 -1.01)
+			(stroke
+				(width 0.254)
+				(type default)
+			)
+			(fill
+				(type background)
+			)
+		)
+		)
+		(symbol "R_1206_1_1"
+		(pin passive line
+			(at -5.08 0.00 0)
+			(length 2.54)
+			(name "~"
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(number "1"
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+		)
+		(pin passive line
+			(at 5.08 0.00 180)
+			(length 2.54)
+			(name "~"
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(number "2"
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+		)
+		)
+	)
+	(symbol "butterfly:SW_SPDT"
+		(pin_numbers
+			(offset 0.508)
+		)
+		(pin_names
+			(offset 0.508)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "SW"
+			(at 0.0000 7.6200 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "JS102011SAQN"
+			(at 0.0000 -7.6200 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Button_Switch_SMD:SW_SPDT_CK-JS102011SAQN"
+			(at 0.0000 0.0000 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0.0000 0.0000 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "SPDT slide switch, surface mount. Pin 2 is the common terminal"
+			(at 0.0000 0.0000 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(symbol "SW_SPDT_0_1"
+		(rectangle
+			(start -5.08 5.08)
+			(end 5.08 -5.08)
+			(stroke
+				(width 0.254)
+				(type default)
+			)
+			(fill
+				(type background)
+			)
+		)
+		)
+		(symbol "SW_SPDT_1_1"
+		(pin passive line
+			(at -7.62 2.54 0)
+			(length 2.54)
+			(name "A"
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(number "1"
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+		)
+		(pin passive line
+			(at -7.62 -2.54 0)
+			(length 2.54)
+			(name "COM"
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(number "2"
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+		)
+		(pin passive line
+			(at 7.62 2.54 180)
+			(length 2.54)
+			(name "B"
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(number "3"
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+		)
+		)
+	)
+	(symbol "power:+3.3V"
+			(power global)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "+3.3V"
+				(at 0 3.556 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "+3.3V_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "+3.3V_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	(symbol "power:GND"
+			(power global)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "#PWR"
+				(at 0 -6.35 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "GND"
+				(at 0 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "GND_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "GND_1_1"
+				(pin power_in line
+					(at 0 0 270)
+					(length 0)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(wire
+		(pts
+			(xy 24.9200 55.0000) (xy 22.3800 55.0000)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "31715d54-aa78-4f80-a26a-0d40c9eab736")
+	)
+	(wire
+		(pts
+			(xy 35.0800 55.0000) (xy 37.6200 55.0000)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fec390b4-73db-4971-ad12-c4d441601dd9")
+	)
+	(wire
+		(pts
+			(xy 54.9200 55.0000) (xy 52.3800 55.0000)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f15a40ad-a7a3-4c6a-abd7-7eea3a075084")
+	)
+	(wire
+		(pts
+			(xy 65.0800 55.0000) (xy 67.6200 55.0000)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "594adffb-f296-4bc2-ada2-c9d724e375d3")
+	)
+	(wire
+		(pts
+			(xy 84.8400 74.9200) (xy 82.3000 74.9200)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "92a2d1b3-521c-44dd-aea5-f441c2e8cb56")
+	)
+	(wire
+		(pts
+			(xy 84.8400 80.0000) (xy 82.3000 80.0000)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0c5bd505-97cc-4411-a661-34ce99124312")
+	)
+	(wire
+		(pts
+			(xy 105.1600 85.0800) (xy 107.7000 85.0800)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1af87bf7-31c7-468b-a580-53ae5166d9f4")
+	)
+	(wire
+		(pts
+			(xy 105.1600 77.4600) (xy 107.7000 77.4600)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1656dbc8-32ab-4a78-a9b4-97ccf136ecae")
+	)
+	(wire
+		(pts
+			(xy 84.8400 85.0800) (xy 82.3000 85.0800)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "96d1a2bd-861a-479f-afbf-852242d212cb")
+	)
+	(wire
+		(pts
+			(xy 89.9200 110.0000) (xy 87.3800 110.0000)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9590e502-2318-4c0c-a018-25813a5cdc1f")
+	)
+	(wire
+		(pts
+			(xy 100.0800 110.0000) (xy 102.6200 110.0000)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "18195bde-05d0-4627-acb7-744542a6649b")
+	)
+	(wire
+		(pts
+			(xy 24.9200 95.0000) (xy 22.3800 95.0000)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1d549354-1149-4ee0-a535-988ea3cebfee")
+	)
+	(wire
+		(pts
+			(xy 35.0800 95.0000) (xy 37.6200 95.0000)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b7929794-4373-4527-a8d7-99039d68419e")
+	)
+	(wire
+		(pts
+			(xy 129.9200 95.0000) (xy 127.3800 95.0000)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9c97cc81-13cb-4a6a-a6aa-aa667fc3dc7b")
+	)
+	(wire
+		(pts
+			(xy 140.0800 95.0000) (xy 142.6200 95.0000)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "900d3c35-2a91-43f2-a653-e3ca78b1cf57")
+	)
+	(wire
+		(pts
+			(xy 87.3800 137.4600) (xy 84.8400 137.4600)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "38eefabd-b1db-4df9-ac60-a2aaf12583c0")
+	)
+	(wire
+		(pts
+			(xy 87.3800 142.5400) (xy 84.8400 142.5400)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "75ed0452-eb8f-421e-ab1e-23d79b68b938")
+	)
+	(wire
+		(pts
+			(xy 87.3800 162.4600) (xy 84.8400 162.4600)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b2795d08-5764-4266-abe9-d875152b2935")
+	)
+	(wire
+		(pts
+			(xy 87.3800 167.5400) (xy 84.8400 167.5400)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c7068fbe-1065-4d21-a07b-a711a99cee40")
+	)
+	(wire
+		(pts
+			(xy 157.3800 77.4600) (xy 154.8400 77.4600)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "483a1126-f3df-4872-ae5e-abd2e8f4e9b2")
+	)
+	(wire
+		(pts
+			(xy 157.3800 82.5400) (xy 154.8400 82.5400)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9b9c85e3-c778-44a0-a9c5-692b6cd29526")
+	)
+	(wire
+		(pts
+			(xy 219.8400 77.4600) (xy 217.3000 77.4600)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9a0f3f44-2c3a-4e18-a3b3-9b8ac7998a03")
+	)
+	(wire
+		(pts
+			(xy 219.8400 82.5400) (xy 217.3000 82.5400)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5ad4dca9-4590-4a7f-ae3c-57b7cb61428c")
+	)
+	(wire
+		(pts
+			(xy 230.0000 90.1600) (xy 230.0000 92.7000)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "545accb5-f56d-4abe-aab9-138fbb624470")
+	)
+	(wire
+		(pts
+			(xy 240.1600 77.4600) (xy 242.7000 77.4600)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ff4aedc2-d63e-4077-addf-668666fe03f3")
+	)
+	(wire
+		(pts
+			(xy 194.9200 110.0000) (xy 192.3800 110.0000)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "668398e9-9c17-4ba7-a4bb-9567c042f8d2")
+	)
+	(wire
+		(pts
+			(xy 205.0800 110.0000) (xy 207.6200 110.0000)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fa2e0a40-a964-4f6d-aafd-2b43fdba7a18")
+	)
+	(wire
+		(pts
+			(xy 259.9200 110.0000) (xy 257.3800 110.0000)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ff2b33c7-3562-4571-af9b-b9b59d48398c")
+	)
+	(wire
+		(pts
+			(xy 270.0800 110.0000) (xy 272.6200 110.0000)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c89fbd11-8699-438a-a137-652c726f66e5")
+	)
+	(wire
+		(pts
+			(xy 300.0000 52.5400) (xy 300.0000 55.0800)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4a83c202-298b-47fe-a852-24bad8325647")
+	)
+	(wire
+		(pts
+			(xy 300.0000 67.5400) (xy 300.0000 70.0800)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "86c25d71-0e60-4fef-ae25-81debe594c4f")
+	)
+	(wire
+		(pts
+			(xy 300.0000 82.5400) (xy 300.0000 85.0800)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9918b8c8-1022-4609-a391-7fdfe8a45959")
+	)
+	(no_connect
+		(at 172.6200 77.4600)
+		(uuid "0aa1c12f-d2c6-457a-a72e-6fa1275edc46")
+	)
+	(no_connect
+		(at 240.1600 82.5400)
+		(uuid "f4576161-511a-473f-a645-187a33e313d6")
+	)
+	(label "CHG_A"
+		(at 37.6200 55.0000 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "2352be80-aa17-448e-af5c-ee410e502300")
+	)
+	(label "CHG_A"
+		(at 52.3800 55.0000 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "0e3d850d-37c5-47dc-a15a-135e81b38ebe")
+	)
+	(label "STAT"
+		(at 67.6200 55.0000 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "9fdeae5e-8288-418c-ab11-d45cb47e6b9e")
+	)
+	(label "STAT"
+		(at 82.3000 74.9200 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "1f2f462c-26c1-4d18-a34a-773dcf39bc92")
+	)
+	(label "VBAT"
+		(at 107.7000 77.4600 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "35715a99-f891-49d9-a786-929450123c9e")
+	)
+	(label "PROG"
+		(at 82.3000 85.0800 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "8d897064-d40d-49c4-a5da-9d14b7012cf0")
+	)
+	(label "PROG"
+		(at 87.3800 110.0000 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "c9c15542-8a08-4ac8-a54b-81ed863d343d")
+	)
+	(label "VBAT"
+		(at 127.3800 95.0000 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "12d8e1a4-0b53-4e88-a50c-093822035a62")
+	)
+	(label "VBAT"
+		(at 84.8400 137.4600 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "7489b4af-d7a5-4a05-a99c-17011f81a7cc")
+	)
+	(label "VBAT"
+		(at 84.8400 162.4600 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f1898f93-ab89-413d-ac5c-dd58d4db7c90")
+	)
+	(label "VBAT"
+		(at 154.8400 77.4600 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "1fc23d91-2c56-4501-a9e6-606357bbaa8c")
+	)
+	(label "VBAT"
+		(at 300.0000 70.0800 270)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "6eeed026-6d78-4537-aae5-0570e1781078")
+	)
+	(global_label "VBUS"
+		(shape bidirectional)
+		(at 22.3800 55.0000 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "a94631ed-2a02-4f40-a227-a43a31e63e96")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 22.3800 55.0000 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+	)
+	(global_label "VBUS"
+		(shape bidirectional)
+		(at 82.3000 80.0000 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "4517bd6c-a8ff-4702-a694-d967fbe7f571")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 82.3000 80.0000 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+	)
+	(global_label "VBUS"
+		(shape bidirectional)
+		(at 22.3800 95.0000 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "ef8e9342-c4a6-46a4-ad05-33d7dcdfa402")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 22.3800 95.0000 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+	)
+	(global_label "VBAT_SW"
+		(shape bidirectional)
+		(at 154.8400 82.5400 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "8cec705c-c5c6-40ea-a228-687a21004655")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 154.8400 82.5400 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+	)
+	(global_label "VBAT_SW"
+		(shape bidirectional)
+		(at 217.3000 77.4600 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "11ab6782-2b91-4955-a5b9-0733a60e391d")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 217.3000 77.4600 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+	)
+	(global_label "VBAT_SW"
+		(shape bidirectional)
+		(at 217.3000 82.5400 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "802af84c-28c8-4824-a621-13b4f101e943")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 217.3000 82.5400 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+	)
+	(global_label "VBAT_SW"
+		(shape bidirectional)
+		(at 192.3800 110.0000 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "35e11757-d48e-4d99-a7a9-c6d3666a157c")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 192.3800 110.0000 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+	)
+	(global_label "VBUS"
+		(shape bidirectional)
+		(at 300.0000 55.0800 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "ce2b4cdc-a449-4df8-a70a-0d774344b54c")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 300.0000 55.0800 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+	)
+	(global_label "VBAT_SW"
+		(shape bidirectional)
+		(at 300.0000 85.0800 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "560707c6-bd4e-4586-abf1-7f93cbb50369")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 300.0000 85.0800 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "butterfly:MCP73831")
+		(at 95.0000 80.0000 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9f6c1c78-f5e7-4e15-aec8-d6a02291e2dc")
+		(property "Reference" "U2"
+			(at 95.0000 73.6500 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MCP73831T-2ACI/OT"
+			(at 95.0000 86.3500 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-5"
+			(at 95.0000 80.0000 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 95.0000 80.0000 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 95.0000 80.0000 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "d99a632f-976f-4c17-a144-e193fd175f6b")
+		)
+		(pin "4"
+			(uuid "754ec291-43d1-47e3-ac09-b0d9cad3fc40")
+		)
+		(pin "5"
+			(uuid "0209e988-72aa-40ea-a3c6-37687cee4a94")
+		)
+		(pin "3"
+			(uuid "f0023474-4cbb-45c2-a0de-da00b0cec769")
+		)
+		(pin "2"
+			(uuid "858b2e87-d903-485e-a9ed-0a4fc5114fd5")
+		)
+		(instances
+			(project "LED Butterfly"
+				(path "/0990cd1a-6f2f-42c4-8ff0-1145230920ec/14f6dbd9-33d9-48d5-ae94-de39fcab5b7d"
+					(reference "U2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "butterfly:AP2112K-3.3")
+		(at 230.0000 80.0000 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "08e226de-4f24-42a9-ac69-36e3c702ee94")
+		(property "Reference" "U3"
+			(at 230.0000 73.6500 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "AP2112K-3.3TRG1"
+			(at 230.0000 86.3500 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-5"
+			(at 230.0000 80.0000 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 230.0000 80.0000 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 230.0000 80.0000 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "c563999d-c284-4823-a5f9-6d9ce862040c")
+		)
+		(pin "3"
+			(uuid "5baf307f-c608-4ccc-af6f-823b275b52be")
+		)
+		(pin "5"
+			(uuid "3fcc413f-9695-420b-a025-28944a688811")
+		)
+		(pin "4"
+			(uuid "e61a55dc-3b3f-4572-a536-9498680601cb")
+		)
+		(pin "2"
+			(uuid "f88e080d-f8bf-42c2-a602-bd21f60162f9")
+		)
+		(instances
+			(project "LED Butterfly"
+				(path "/0990cd1a-6f2f-42c4-8ff0-1145230920ec/14f6dbd9-33d9-48d5-ae94-de39fcab5b7d"
+					(reference "U3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "butterfly:SW_SPDT")
+		(at 165.0000 80.0000 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9f3bb99a-6b6c-4383-a3b3-21660e1b0772")
+		(property "Reference" "SW1"
+			(at 165.0000 73.6500 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "JS102011SAQN"
+			(at 165.0000 86.3500 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Button_Switch_SMD:SW_SPDT_CK-JS102011SAQN"
+			(at 165.0000 80.0000 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 165.0000 80.0000 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 165.0000 80.0000 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "f7b3b38b-abb8-437b-af9e-e67d67843b43")
+		)
+		(pin "2"
+			(uuid "24fa6688-a30c-4bc1-a3f5-7c42270f2cec")
+		)
+		(pin "3"
+			(uuid "a1020adb-23e4-4d0c-a61f-7a6284931c50")
+		)
+		(instances
+			(project "LED Butterfly"
+				(path "/0990cd1a-6f2f-42c4-8ff0-1145230920ec/14f6dbd9-33d9-48d5-ae94-de39fcab5b7d"
+					(reference "SW1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "butterfly:BATT_HOLDER")
+		(at 95.0000 140.0000 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8855f21f-6f8f-410f-a90b-1f21b0feddbb")
+		(property "Reference" "BT1a"
+			(at 95.0000 133.6500 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LIR2032"
+			(at 95.0000 146.3500 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Battery:BatteryHolder_Keystone_3034_1x20mm"
+			(at 95.0000 140.0000 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 95.0000 140.0000 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 95.0000 140.0000 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "ce1322b2-0683-40ac-ad09-b717b794025d")
+		)
+		(pin "2"
+			(uuid "8521b916-309e-469e-a453-cf8c1be28065")
+		)
+		(instances
+			(project "LED Butterfly"
+				(path "/0990cd1a-6f2f-42c4-8ff0-1145230920ec/14f6dbd9-33d9-48d5-ae94-de39fcab5b7d"
+					(reference "BT1a")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "butterfly:BATT_HOLDER")
+		(at 95.0000 165.0000 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "70aa9799-5a6c-459f-a7d1-ebc9ac79df26")
+		(property "Reference" "BT1b"
+			(at 95.0000 158.6500 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LIR2032"
+			(at 95.0000 171.3500 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Battery:BatteryHolder_Keystone_3034_1x20mm"
+			(at 95.0000 165.0000 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 95.0000 165.0000 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 95.0000 165.0000 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "b837c0e4-b6d3-4d32-a656-9fb579459852")
+		)
+		(pin "2"
+			(uuid "039720ee-9816-411c-ae77-e557f46e1f0a")
+		)
+		(instances
+			(project "LED Butterfly"
+				(path "/0990cd1a-6f2f-42c4-8ff0-1145230920ec/14f6dbd9-33d9-48d5-ae94-de39fcab5b7d"
+					(reference "BT1b")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "butterfly:LED_1206")
+		(at 60.0000 55.0000 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2879d3d7-2116-4605-a046-5abe7ecccb12")
+		(property "Reference" "D7"
+			(at 60.0000 48.6500 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LED_CHG"
+			(at 60.0000 61.3500 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_1206_3216Metric"
+			(at 60.0000 55.0000 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 60.0000 55.0000 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 60.0000 55.0000 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "af72c3f8-33b6-4464-adc6-e81c34d85cc9")
+		)
+		(pin "2"
+			(uuid "1fd5defb-5bf0-4da1-af4c-daeffcebb6b6")
+		)
+		(instances
+			(project "LED Butterfly"
+				(path "/0990cd1a-6f2f-42c4-8ff0-1145230920ec/14f6dbd9-33d9-48d5-ae94-de39fcab5b7d"
+					(reference "D7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "butterfly:R_1206")
+		(at 30.0000 55.0000 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "823aa00e-301b-4b7b-a24d-8e3e0adaf594")
+		(property "Reference" "R13"
+			(at 30.0000 48.6500 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1k"
+			(at 30.0000 61.3500 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
+			(at 30.0000 55.0000 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 30.0000 55.0000 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 30.0000 55.0000 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "82d8d7a6-3fa0-4451-aaba-b2ee27d3728d")
+		)
+		(pin "2"
+			(uuid "9113035d-8306-4825-a041-ce9658f6da66")
+		)
+		(instances
+			(project "LED Butterfly"
+				(path "/0990cd1a-6f2f-42c4-8ff0-1145230920ec/14f6dbd9-33d9-48d5-ae94-de39fcab5b7d"
+					(reference "R13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "butterfly:R_1206")
+		(at 95.0000 110.0000 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "afcfd6c0-a1a2-4e0d-a097-0846beb09717")
+		(property "Reference" "R14"
+			(at 95.0000 103.6500 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "24k"
+			(at 95.0000 116.3500 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
+			(at 95.0000 110.0000 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 95.0000 110.0000 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 95.0000 110.0000 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "21d3fad9-62fa-40d1-a748-40133974b593")
+		)
+		(pin "2"
+			(uuid "e7e6dd1e-267d-450f-a742-a314ccf74174")
+		)
+		(instances
+			(project "LED Butterfly"
+				(path "/0990cd1a-6f2f-42c4-8ff0-1145230920ec/14f6dbd9-33d9-48d5-ae94-de39fcab5b7d"
+					(reference "R14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "butterfly:C_1206")
+		(at 30.0000 95.0000 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4b85f160-c4a3-4ffa-a0f0-24662b324156")
+		(property "Reference" "C16"
+			(at 30.0000 88.6500 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "4.7uF"
+			(at 30.0000 101.3500 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
+			(at 30.0000 95.0000 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 30.0000 95.0000 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 30.0000 95.0000 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "8a5a9890-b476-4f39-a74b-53d56eb2630a")
+		)
+		(pin "2"
+			(uuid "5014a06f-1a81-48ae-a5eb-45d6ade3067a")
+		)
+		(instances
+			(project "LED Butterfly"
+				(path "/0990cd1a-6f2f-42c4-8ff0-1145230920ec/14f6dbd9-33d9-48d5-ae94-de39fcab5b7d"
+					(reference "C16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "butterfly:C_1206")
+		(at 135.0000 95.0000 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "68be53dd-2593-49fe-aa14-bf66cab88f18")
+		(property "Reference" "C17"
+			(at 135.0000 88.6500 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "4.7uF"
+			(at 135.0000 101.3500 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
+			(at 135.0000 95.0000 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 135.0000 95.0000 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 135.0000 95.0000 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "15117de6-a5d1-4130-a88a-d4f769bf1fe5")
+		)
+		(pin "2"
+			(uuid "a1f04228-d002-428b-a965-52980fcabbbd")
+		)
+		(instances
+			(project "LED Butterfly"
+				(path "/0990cd1a-6f2f-42c4-8ff0-1145230920ec/14f6dbd9-33d9-48d5-ae94-de39fcab5b7d"
+					(reference "C17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "butterfly:C_1206")
+		(at 200.0000 110.0000 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4aa79b69-4920-4174-a264-36181dee450d")
+		(property "Reference" "C18"
+			(at 200.0000 103.6500 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1uF"
+			(at 200.0000 116.3500 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
+			(at 200.0000 110.0000 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 200.0000 110.0000 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 200.0000 110.0000 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "eb4d67b6-7f97-45ba-ace6-09a3d2a89516")
+		)
+		(pin "2"
+			(uuid "e7bb11fc-66e4-4d96-a775-d32de7d2a8af")
+		)
+		(instances
+			(project "LED Butterfly"
+				(path "/0990cd1a-6f2f-42c4-8ff0-1145230920ec/14f6dbd9-33d9-48d5-ae94-de39fcab5b7d"
+					(reference "C18")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "butterfly:C_1206")
+		(at 265.0000 110.0000 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "dede2970-437e-4b8d-adcf-0b227bce75c8")
+		(property "Reference" "C19"
+			(at 265.0000 103.6500 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1uF"
+			(at 265.0000 116.3500 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
+			(at 265.0000 110.0000 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 265.0000 110.0000 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 265.0000 110.0000 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "e6a0dc71-28fa-4951-ad9e-822fc3dffa0d")
+		)
+		(pin "2"
+			(uuid "35805af4-731b-47bb-aa41-049c03d3ae5c")
+		)
+		(instances
+			(project "LED Butterfly"
+				(path "/0990cd1a-6f2f-42c4-8ff0-1145230920ec/14f6dbd9-33d9-48d5-ae94-de39fcab5b7d"
+					(reference "C19")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "butterfly:PWR_FLAG")
+		(at 300.0000 50.0000 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "30ce1643-7ea4-464e-ad34-aada1e5db425")
+		(property "Reference" "#FLG00"
+			(at 300.0000 43.6500 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 300.0000 56.3500 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 300.0000 50.0000 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 300.0000 50.0000 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 300.0000 50.0000 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "f91f7eed-edb0-4b04-a948-8ec958a400f9")
+		)
+		(instances
+			(project "LED Butterfly"
+				(path "/0990cd1a-6f2f-42c4-8ff0-1145230920ec/14f6dbd9-33d9-48d5-ae94-de39fcab5b7d"
+					(reference "#FLG00")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "butterfly:PWR_FLAG")
+		(at 300.0000 65.0000 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3d47e248-fbd5-46f9-adf2-91a1cf4a1e1d")
+		(property "Reference" "#FLG01"
+			(at 300.0000 58.6500 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 300.0000 71.3500 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 300.0000 65.0000 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 300.0000 65.0000 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 300.0000 65.0000 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "76190467-87a7-467d-a555-50fb490525fb")
+		)
+		(instances
+			(project "LED Butterfly"
+				(path "/0990cd1a-6f2f-42c4-8ff0-1145230920ec/14f6dbd9-33d9-48d5-ae94-de39fcab5b7d"
+					(reference "#FLG01")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "butterfly:PWR_FLAG")
+		(at 300.0000 80.0000 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "edd4118b-1916-46c4-adbe-be3867643cf8")
+		(property "Reference" "#FLG02"
+			(at 300.0000 73.6500 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 300.0000 86.3500 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 300.0000 80.0000 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 300.0000 80.0000 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 300.0000 80.0000 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "a908b2bd-6d62-49e3-a855-2d487367441b")
+		)
+		(instances
+			(project "LED Butterfly"
+				(path "/0990cd1a-6f2f-42c4-8ff0-1145230920ec/14f6dbd9-33d9-48d5-ae94-de39fcab5b7d"
+					(reference "#FLG02")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 107.7000 85.0800 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4f97ce6e-74c1-4f14-a290-e8911c23483c")
+		(property "Reference" "#PWR201"
+			(at 107.7000 78.7300 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 107.7000 91.4300 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 107.7000 85.0800 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 107.7000 85.0800 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 107.7000 85.0800 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "3e183080-fae3-4baf-aeb2-54fd3c841b61")
+		)
+		(instances
+			(project "LED Butterfly"
+				(path "/0990cd1a-6f2f-42c4-8ff0-1145230920ec/14f6dbd9-33d9-48d5-ae94-de39fcab5b7d"
+					(reference "#PWR201")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 102.6200 110.0000 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cd368d9e-7ac8-445a-ab4b-287c781336eb")
+		(property "Reference" "#PWR202"
+			(at 102.6200 103.6500 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 102.6200 116.3500 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 102.6200 110.0000 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 102.6200 110.0000 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 102.6200 110.0000 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "096fd823-55e3-451d-ac37-6ef0bece84b6")
+		)
+		(instances
+			(project "LED Butterfly"
+				(path "/0990cd1a-6f2f-42c4-8ff0-1145230920ec/14f6dbd9-33d9-48d5-ae94-de39fcab5b7d"
+					(reference "#PWR202")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 37.6200 95.0000 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e9c6689c-12e4-4248-a6fb-ac24017117b4")
+		(property "Reference" "#PWR203"
+			(at 37.6200 88.6500 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 37.6200 101.3500 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 37.6200 95.0000 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 37.6200 95.0000 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 37.6200 95.0000 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "689fd3e9-dda2-4f2a-aa44-cda668e0caa5")
+		)
+		(instances
+			(project "LED Butterfly"
+				(path "/0990cd1a-6f2f-42c4-8ff0-1145230920ec/14f6dbd9-33d9-48d5-ae94-de39fcab5b7d"
+					(reference "#PWR203")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 142.6200 95.0000 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f0d58412-bfa8-43ed-a611-2c9330767753")
+		(property "Reference" "#PWR204"
+			(at 142.6200 88.6500 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 142.6200 101.3500 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 142.6200 95.0000 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 142.6200 95.0000 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 142.6200 95.0000 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "a6650bff-8226-42d4-a271-28f1206f5815")
+		)
+		(instances
+			(project "LED Butterfly"
+				(path "/0990cd1a-6f2f-42c4-8ff0-1145230920ec/14f6dbd9-33d9-48d5-ae94-de39fcab5b7d"
+					(reference "#PWR204")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 84.8400 142.5400 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "489c6c64-081b-427d-a46a-6b577dbe14ec")
+		(property "Reference" "#PWR205"
+			(at 84.8400 136.1900 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 84.8400 148.8900 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 84.8400 142.5400 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 84.8400 142.5400 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 84.8400 142.5400 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "f7f70c88-d254-48ea-a1f7-6eefb5551820")
+		)
+		(instances
+			(project "LED Butterfly"
+				(path "/0990cd1a-6f2f-42c4-8ff0-1145230920ec/14f6dbd9-33d9-48d5-ae94-de39fcab5b7d"
+					(reference "#PWR205")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 84.8400 167.5400 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f8de814f-a131-4485-a8d8-935c206b53f5")
+		(property "Reference" "#PWR206"
+			(at 84.8400 161.1900 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 84.8400 173.8900 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 84.8400 167.5400 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 84.8400 167.5400 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 84.8400 167.5400 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "1127602c-6111-44a3-ab50-92a0313e1747")
+		)
+		(instances
+			(project "LED Butterfly"
+				(path "/0990cd1a-6f2f-42c4-8ff0-1145230920ec/14f6dbd9-33d9-48d5-ae94-de39fcab5b7d"
+					(reference "#PWR206")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 230.0000 92.7000 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9d8c8fdf-3b84-4916-ac5e-fad4dd8da589")
+		(property "Reference" "#PWR207"
+			(at 230.0000 86.3500 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 230.0000 99.0500 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 230.0000 92.7000 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 230.0000 92.7000 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 230.0000 92.7000 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "1b5ec7c3-b37a-442e-aabe-d19015f98ade")
+		)
+		(instances
+			(project "LED Butterfly"
+				(path "/0990cd1a-6f2f-42c4-8ff0-1145230920ec/14f6dbd9-33d9-48d5-ae94-de39fcab5b7d"
+					(reference "#PWR207")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 242.7000 77.4600 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "364e4106-299c-4e00-a5a9-fda725c4ef9c")
+		(property "Reference" "#PWR208"
+			(at 242.7000 71.1100 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 242.7000 83.8100 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 242.7000 77.4600 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 242.7000 77.4600 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 242.7000 77.4600 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "d87fe573-de42-4c76-a2f1-6f4393895996")
+		)
+		(instances
+			(project "LED Butterfly"
+				(path "/0990cd1a-6f2f-42c4-8ff0-1145230920ec/14f6dbd9-33d9-48d5-ae94-de39fcab5b7d"
+					(reference "#PWR208")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 207.6200 110.0000 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d60ec055-692d-457f-ad79-83a2372b5e9c")
+		(property "Reference" "#PWR209"
+			(at 207.6200 103.6500 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 207.6200 116.3500 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 207.6200 110.0000 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 207.6200 110.0000 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 207.6200 110.0000 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "335892c9-5058-4f81-a037-729e74e53600")
+		)
+		(instances
+			(project "LED Butterfly"
+				(path "/0990cd1a-6f2f-42c4-8ff0-1145230920ec/14f6dbd9-33d9-48d5-ae94-de39fcab5b7d"
+					(reference "#PWR209")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 257.3800 110.0000 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "821229b0-b9a1-4f2c-ac68-8d8bba807f14")
+		(property "Reference" "#PWR210"
+			(at 257.3800 103.6500 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 257.3800 116.3500 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 257.3800 110.0000 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 257.3800 110.0000 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 257.3800 110.0000 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "f4f1e989-c14c-4174-afc3-69ff17ccfc80")
+		)
+		(instances
+			(project "LED Butterfly"
+				(path "/0990cd1a-6f2f-42c4-8ff0-1145230920ec/14f6dbd9-33d9-48d5-ae94-de39fcab5b7d"
+					(reference "#PWR210")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 272.6200 110.0000 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "81b12016-818e-4dfe-a3e8-b7405a381dd0")
+		(property "Reference" "#PWR211"
+			(at 272.6200 103.6500 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 272.6200 116.3500 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 272.6200 110.0000 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 272.6200 110.0000 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 272.6200 110.0000 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "08a17a1f-42d9-4846-acf1-69ca22f55dc9")
+		)
+		(instances
+			(project "LED Butterfly"
+				(path "/0990cd1a-6f2f-42c4-8ff0-1145230920ec/14f6dbd9-33d9-48d5-ae94-de39fcab5b7d"
+					(reference "#PWR211")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(embedded_fonts no)
+)

@@ -1,0 +1,611 @@
+(kicad_sch
+	(version 20260306)
+	(generator "eeschema")
+	(generator_version "10.0")
+	(uuid "0990cd1a-6f2f-42c4-8ff0-1145230920ec")
+	(paper "A3")
+
+	(lib_symbols)
+	(sheet
+		(at 110 40)
+		(size 60 40)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "d7a52ce2-71b1-4248-9f7c-5195963708f6")
+		(property "Sheetname" "Microcontroller"
+			(at 110.0000 39.2884 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sheetfile" "Main.kicad_sch"
+			(at 110.0000 80.9500 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "BOOT" bidirectional
+			(at 110 47.62 180)
+			(uuid "13955a15-6c9d-41de-a9ef-ee360c2490be")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "CHIP_ENABLE" bidirectional
+			(at 110 52.699999999999996 180)
+			(uuid "3dcf1a6a-cdcb-49e1-a773-a2fd5cca10ad")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "LED_DATA" bidirectional
+			(at 110 57.78 180)
+			(uuid "ccbc224f-70f3-4bda-a54e-41497fd455cc")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "UART_RX" bidirectional
+			(at 110 62.86 180)
+			(uuid "531d2e11-5358-4a08-a798-af1b9b12a12e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "UART_TX" bidirectional
+			(at 110 67.94 180)
+			(uuid "96892409-66f4-4a4f-a04a-d4d717396344")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "USB_DATA+" bidirectional
+			(at 110 73.02 180)
+			(uuid "d0b18f9f-10c2-4dd3-a862-0f7de31aca4b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "USB_DATA-" bidirectional
+			(at 110 78.1 180)
+			(uuid "f9008d0d-3165-43c7-ae79-cd18c8c10e62")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "LED Butterfly"
+				(path "/0990cd1a-6f2f-42c4-8ff0-1145230920ec"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 110 100)
+		(size 60 30)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "7f30b718-7894-4b2f-a650-38219c477cb8")
+		(property "Sheetname" "USB_UART"
+			(at 110.0000 99.2884 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sheetfile" "USB_UART.kicad_sch"
+			(at 110.0000 130.9500 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "CHIP_ENABLE" bidirectional
+			(at 110 107.62 180)
+			(uuid "0b695210-cde3-4ea2-a556-d36c97e6ff07")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "BOOT" bidirectional
+			(at 110 112.7 180)
+			(uuid "5e572dc4-322d-4e4e-a7d3-1ed88acca845")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "UART_RX" bidirectional
+			(at 110 117.78 180)
+			(uuid "bffd893c-969b-435a-a60d-d110fb1d47d0")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "UART_TX" bidirectional
+			(at 110 122.86 180)
+			(uuid "d7e73976-1bcf-4732-a521-aba856c98c13")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "USB_DATA+" bidirectional
+			(at 110 127.94 180)
+			(uuid "d97d54b2-0d43-408b-abf2-c621921fb05f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "USB_DATA-" bidirectional
+			(at 110 133.02 180)
+			(uuid "44953a07-ca34-4a65-aada-686e304f34a9")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "LED Butterfly"
+				(path "/0990cd1a-6f2f-42c4-8ff0-1145230920ec"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 110 145)
+		(size 60 20)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "14f6dbd9-33d9-48d5-ae94-de39fcab5b7d")
+		(property "Sheetname" "Power"
+			(at 110.0000 144.2884 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sheetfile" "Power.kicad_sch"
+			(at 110.0000 165.9500 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(instances
+			(project "LED Butterfly"
+				(path "/0990cd1a-6f2f-42c4-8ff0-1145230920ec"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 110 180)
+		(size 60 20)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0)
+		)
+		(uuid "74b0bfe2-293b-4ef8-abbb-cff9f63947d4")
+		(property "Sheetname" "LED"
+			(at 110.0000 179.2884 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sheetfile" "LED.kicad_sch"
+			(at 110.0000 200.9500 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "LED_DATA" bidirectional
+			(at 110 187.62 180)
+			(uuid "b1ec07ee-44cf-4585-a64d-6cb52b11ac2d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "LED Butterfly"
+				(path "/0990cd1a-6f2f-42c4-8ff0-1145230920ec"
+					(page "5")
+				)
+			)
+		)
+	)
+	(wire
+		(pts
+			(xy 110.0000 47.6200) (xy 102.3800 47.6200)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e5342484-0015-49f3-ae1f-977769540c6f")
+	)
+	(wire
+		(pts
+			(xy 110.0000 52.7000) (xy 102.3800 52.7000)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "263c0559-20f1-4d43-aa2e-39cc79de9045")
+	)
+	(wire
+		(pts
+			(xy 110.0000 57.7800) (xy 102.3800 57.7800)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6edad47d-667b-4da3-a893-bb9119c63057")
+	)
+	(wire
+		(pts
+			(xy 110.0000 62.8600) (xy 102.3800 62.8600)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5ecb16ab-0088-492e-a678-5c2919c02e1c")
+	)
+	(wire
+		(pts
+			(xy 110.0000 67.9400) (xy 102.3800 67.9400)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4fb568ec-e70b-493e-a564-383bf643e45b")
+	)
+	(wire
+		(pts
+			(xy 110.0000 73.0200) (xy 102.3800 73.0200)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bea230b3-ccef-4b9d-a4e6-16a9a12f887e")
+	)
+	(wire
+		(pts
+			(xy 110.0000 78.1000) (xy 102.3800 78.1000)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "340b6bc3-c2ee-4c3a-aa6f-210b6d0630be")
+	)
+	(wire
+		(pts
+			(xy 110.0000 107.6200) (xy 102.3800 107.6200)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3ccfeea7-a471-47e5-a559-2a649dbf19bb")
+	)
+	(wire
+		(pts
+			(xy 110.0000 112.7000) (xy 102.3800 112.7000)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d0d8a3fc-3a07-4984-a66b-cb43beeff89b")
+	)
+	(wire
+		(pts
+			(xy 110.0000 117.7800) (xy 102.3800 117.7800)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "72b48fb3-7a24-43fb-ac8f-fb8f531f2a8e")
+	)
+	(wire
+		(pts
+			(xy 110.0000 122.8600) (xy 102.3800 122.8600)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "880f3661-7cb5-48aa-aa55-c63889f5f992")
+	)
+	(wire
+		(pts
+			(xy 110.0000 127.9400) (xy 102.3800 127.9400)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "08b890f4-9ae1-4568-a1e8-d95b8c27e86e")
+	)
+	(wire
+		(pts
+			(xy 110.0000 133.0200) (xy 102.3800 133.0200)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "784eafc4-5af5-4add-a7dd-c7df9f21565b")
+	)
+	(wire
+		(pts
+			(xy 110.0000 187.6200) (xy 102.3800 187.6200)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "29c73404-31f9-4b79-a7c0-5186c60bda3f")
+	)
+	(label "BOOT"
+		(at 102.3800 47.6200 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "abeb39cf-5d39-42ab-af32-9bce9fb01690")
+	)
+	(label "CHIP_ENABLE"
+		(at 102.3800 52.7000 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "53a2c2de-e3cd-49cb-a980-24f2f71c550a")
+	)
+	(label "LED_DATA"
+		(at 102.3800 57.7800 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "bc28201a-a04a-4cdc-a077-1d1e9a8ebb49")
+	)
+	(label "UART_RX"
+		(at 102.3800 62.8600 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "0de80d1e-793f-4f2a-a5a1-4e7642997790")
+	)
+	(label "UART_TX"
+		(at 102.3800 67.9400 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "e5c7c2a2-20ec-4bac-a438-f9fdbc794778")
+	)
+	(label "USB_DATA+"
+		(at 102.3800 73.0200 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "cab8c23f-9e96-45d5-a5ef-8678eb97ffce")
+	)
+	(label "USB_DATA-"
+		(at 102.3800 78.1000 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "636e9a14-d43e-4d55-af82-e62e439697fd")
+	)
+	(label "CHIP_ENABLE"
+		(at 102.3800 107.6200 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "5cd9652b-9050-43da-a1bb-d0e8e3eba5db")
+	)
+	(label "BOOT"
+		(at 102.3800 112.7000 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "48c0ea4b-dbcd-4d25-ab54-ad0f091fc4ce")
+	)
+	(label "UART_RX"
+		(at 102.3800 117.7800 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "91eb18c8-a5ee-4a07-ad28-b8c5ffb0812d")
+	)
+	(label "UART_TX"
+		(at 102.3800 122.8600 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "92855158-ddb2-4069-a47c-6dd27b677df1")
+	)
+	(label "USB_DATA+"
+		(at 102.3800 127.9400 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "a2afad88-a748-4a8c-a491-101724ac778d")
+	)
+	(label "USB_DATA-"
+		(at 102.3800 133.0200 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "d5db829c-3719-4f0b-a916-270140398812")
+	)
+	(label "LED_DATA"
+		(at 102.3800 187.6200 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "3bc6d025-7b03-467a-a52a-f863c6036979")
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)

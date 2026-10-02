@@ -1,0 +1,26 @@
+Qty,References,Value,Manufacturer part,Package,Note,DigiKey search
+13,C5 C6 C7 C8 C9 C14 C15 C20 C21 C22 C23 C24 C25,100nF,C1206C104K5RACTU,1206,,https://www.digikey.com/en/products/result?keywords=C1206C104K5RACTU
+6,R1 R2 R3 R4 R7 R8,10k,RC1206FR-0710KL,1206,,https://www.digikey.com/en/products/result?keywords=RC1206FR-0710KL
+6,D1 D2 D3 D4 D5 D6,WS2812B,WS2812B,PLCC-4 5050,Addressable RGB LED,https://www.digikey.com/en/products/result?keywords=WS2812B
+4,C10 C11 C18 C19,1uF,C1206C105K3RACTU,1206,,https://www.digikey.com/en/products/result?keywords=C1206C105K3RACTU
+3,C13 C16 C17,4.7uF,C1206C475K8RACTU,1206,,https://www.digikey.com/en/products/result?keywords=4.7uF%201206%20X5R%2025V
+3,R9 R10 R15,470,RC1206FR-07470RL,1206,UART series and WS2812B data series,https://www.digikey.com/en/products/result?keywords=RC1206FR-07470RL
+2,C3 C4,12pF,C1206C120J5GACTU,1206 C0G,Crystal load caps,https://www.digikey.com/en/products/result?keywords=C1206C120J5GACTU
+2,R11 R12,27,RC1206FR-0727RL,1206,USB D+/D- series,https://www.digikey.com/en/products/result?keywords=RC1206FR-0727RL
+2,R5 R6,5.1k,RC1206FR-075K1L,1206,"USB-C CC pulldowns, mark the board as a sink",https://www.digikey.com/en/products/result?keywords=RC1206FR-075K1L
+2,BT1a BT1b,LIR2032,LIR2032,coin 20 mm,RECHARGEABLE ONLY - a CR2032 here is a fire risk,https://www.digikey.com/en/products/result?keywords=LIR2032
+2,Q1 Q2,MMBT2222A,MMBT2222A,SOT-23,"NPN, auto-reset cross",https://www.digikey.com/en/products/result?keywords=MMBT2222A
+2,TP1 TP2,TestPoint,-,1.5 mm pad,Native-USB flashing fallback,
+1,C12,10uF,CL31A106KAHNNNE,1206,,https://www.digikey.com/en/products/result?keywords=CL31A106KAHNNNE
+1,R13,1k,RC1206FR-071KL,1206,Charge LED series,https://www.digikey.com/en/products/result?keywords=1k%20ohm%201206%201%25
+1,R14,24k,RC1206FR-0724KL,1206,PROG: sets ~42 mA charge current,https://www.digikey.com/en/products/result?keywords=24k%20ohm%201206%201%25
+1,40.0MHz-Crystral,40 MHz crystal,ABM3B-40.000MHZ-10-1-U-T,5032 4-pad,Hand-solderable 4-pad package,https://www.digikey.com/en/products/result?keywords=ABM3B-40.000MHZ-10-1-U-T
+1,C26,470uF,"470 uF 10 V SMD aluminium, 8 mm can (Panasonic FK or similar)",SMD 8x10.5,Bulk at the first pixel. 100-220 uF is ample at 10% brightness if you want a smaller can,https://www.digikey.com/en/products/result?keywords=470uF%2010V%20SMD%20aluminum%20electrolytic
+1,U3,AP2112K-3.3TRG1,AP2112K-3.3TRG1,SOT-23-5,"3.3 V LDO, 600 mA",https://www.digikey.com/en/products/result?keywords=AP2112K-3.3TRG1
+1,ESP32-C3FH4,ESP32-C3FH4,ESP32-C3FH4,QFN-32,"Bare MCU, 4 MB internal flash",https://www.digikey.com/en/products/result?keywords=ESP32-C3FH4
+1,U5,FT231XS-R,FT231XS-R,SSOP-20,"USB to UART bridge, runs from 5 V VBUS",https://www.digikey.com/en/products/result?keywords=FT231XS-R
+1,SW1,JS102011SAQN,JS102011SAQN,"SPDT slide, SMD","Power switch, pin 2 common",https://www.digikey.com/en/products/result?keywords=JS102011SAQN
+1,D7,LED_CHG,any 1206 LED,1206,Charge status indicator,https://www.digikey.com/en/products/result?keywords=1206%20LED
+1,U2,MCP73831T-2ACI/OT,MCP73831T-2ACI/OT,SOT-23-5,"Li-ion charger, I_REG = 1000/R_PROG",https://www.digikey.com/en/products/result?keywords=MCP73831T-2ACI%2FOT
+1,J1,USB4110-GF-A,USB4110-GF-A,USB-C 16P,All-SMD USB-C receptacle,https://www.digikey.com/en/products/result?keywords=USB4110-GF-A
+1,U4,USBLC6-2SC6,USBLC6-2SC6,SOT-23-6,USB ESD protection,https://www.digikey.com/en/products/result?keywords=USBLC6-2SC6

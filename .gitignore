@@ -1,0 +1,18 @@
+# KiCad
+*-backups/
+_restore_backup_*/
+.history/
+*.kicad_prl
+*.kicad_sch-bak
+*.kicad_pcb-bak
+fp-info-cache
+~*.*
+# Fabrication output
+gerbers/
+*.zip
+*.drl
+*.gbr
+# Python
+__pycache__/
+*.pyc
+.venv/

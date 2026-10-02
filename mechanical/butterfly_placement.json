@@ -1,0 +1,142 @@
+{
+  "span_mm": 83.76,
+  "height_mm": 63.33,
+  "area_mm2": 3392.3,
+  "edge_segments": 7318,
+  "silk_primitives": 7342,
+  "min_board_width_mm": 5.4,
+  "min_concave_radius_mm": 0.8,
+  "hang_hole": {
+    "x": 0.0,
+    "y": 27.0,
+    "d": 3.2
+  },
+  "placement": [
+    {
+      "ref": "BT1a",
+      "what": "LIR2032 holder (back)",
+      "x": -22.0,
+      "y": 17.0,
+      "clearance_r_mm": 11.0,
+      "fits": true,
+      "margin_mm": 1.11
+    },
+    {
+      "ref": "BT1b",
+      "what": "LIR2032 holder (back)",
+      "x": 22.0,
+      "y": 17.0,
+      "clearance_r_mm": 11.0,
+      "fits": true,
+      "margin_mm": 1.11
+    },
+    {
+      "ref": "U1",
+      "what": "ESP32-C3FH4 (back)",
+      "x": 0.0,
+      "y": 10.0,
+      "clearance_r_mm": 5.0,
+      "fits": true,
+      "margin_mm": 3.64
+    },
+    {
+      "ref": "U5",
+      "what": "FT231XS (back)",
+      "x": 0.0,
+      "y": 0.0,
+      "clearance_r_mm": 4.5,
+      "fits": true,
+      "margin_mm": 1.24
+    },
+    {
+      "ref": "J1",
+      "what": "USB-C, overhangs edge",
+      "x": 0.0,
+      "y": -24.0,
+      "clearance_r_mm": 4.8,
+      "fits": true,
+      "margin_mm": 0.33
+    },
+    {
+      "ref": "SW1",
+      "what": "slide switch (SMD)",
+      "x": -21.0,
+      "y": -14.0,
+      "clearance_r_mm": 4.5,
+      "fits": true,
+      "margin_mm": 6.62
+    },
+    {
+      "ref": "C26",
+      "what": "470 uF bulk, next to D4",
+      "x": 21.0,
+      "y": -14.0,
+      "clearance_r_mm": 4.5,
+      "fits": true,
+      "margin_mm": 6.62
+    },
+    {
+      "ref": "D1",
+      "what": "WS2812B",
+      "x": -14.0,
+      "y": 22.0,
+      "clearance_r_mm": 3.2,
+      "fits": true,
+      "margin_mm": 1.37
+    },
+    {
+      "ref": "D2",
+      "what": "WS2812B",
+      "x": -30.0,
+      "y": 20.0,
+      "clearance_r_mm": 3.2,
+      "fits": true,
+      "margin_mm": 4.84
+    },
+    {
+      "ref": "D3",
+      "what": "WS2812B",
+      "x": -28.0,
+      "y": -20.0,
+      "clearance_r_mm": 3.2,
+      "fits": true,
+      "margin_mm": 0.0
+    },
+    {
+      "ref": "D4",
+      "what": "WS2812B",
+      "x": 28.0,
+      "y": -20.0,
+      "clearance_r_mm": 3.2,
+      "fits": true,
+      "margin_mm": 0.0
+    },
+    {
+      "ref": "D5",
+      "what": "WS2812B",
+      "x": 30.0,
+      "y": 20.0,
+      "clearance_r_mm": 3.2,
+      "fits": true,
+      "margin_mm": 4.84
+    },
+    {
+      "ref": "D6",
+      "what": "WS2812B",
+      "x": 14.0,
+      "y": 22.0,
+      "clearance_r_mm": 3.2,
+      "fits": true,
+      "margin_mm": 1.37
+    },
+    {
+      "ref": "D7",
+      "what": "charge LED",
+      "x": 0.0,
+      "y": -16.0,
+      "clearance_r_mm": 2.2,
+      "fits": true,
+      "margin_mm": 3.3
+    }
+  ]
+}

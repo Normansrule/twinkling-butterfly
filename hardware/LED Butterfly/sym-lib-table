@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "butterfly")(type "KiCad")(uri "${KIPRJMOD}/butterfly.kicad_sym")(options "")(descr "Twinkling Butterfly parts"))
+)
