@@ -1,0 +1,24 @@
+[
+  {
+    "file": "butterfly_board.stl",
+    "watertight": true,
+    "volume_cm3": 5.4,
+    "size_mm": [
+      83.74,
+      63.32,
+      1.6
+    ],
+    "triangles": 1708
+  },
+  {
+    "file": "butterfly_stand.stl",
+    "watertight": true,
+    "volume_cm3": 17.41,
+    "size_mm": [
+      46.0,
+      34.0,
+      22.0
+    ],
+    "triangles": 44
+  }
+]

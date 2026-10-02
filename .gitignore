@@ -16,3 +16,6 @@ gerbers/
 __pycache__/
 *.pyc
 .venv/
+# Fab output is generated, not source
+/fab/
+/fab.zip

@@ -76,6 +76,9 @@ class UF(dict):
         ra, rb = self.find(a), self.find(b)
         if ra != rb: self[ra] = rb
 
+NC_PINS = {}   # (sheet, ref, pin) -> pin name, filled in by analyse()
+
+
 def analyse(path):
     text = open(path, encoding="utf-8", errors="replace").read()
     name = os.path.basename(path)
@@ -138,6 +141,7 @@ def analyse(path):
             nets[root].append((ref, num, pname))
             continue
         if node in ncs:
+            NC_PINS[(name, ref, num)] = pname
             continue
         if node not in uf:
             problems.append(f"{name}: {ref} pin {num} ({pname}) is floating - no wire, no no-connect")

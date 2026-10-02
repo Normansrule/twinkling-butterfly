@@ -1,20 +1,36 @@
 name: check
 on: [push, pull_request]
 jobs:
-  schematic:
+  generated-files-are-current:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
         with: { python-version: "3.12" }
-      - run: pip install shapely matplotlib
+      - run: pip install shapely matplotlib trimesh mapbox_earcut
+
       - name: Netlist and structure check
         run: cd hardware && python3 validate_sheets.py
-      - name: BOM stays in sync with the schematic
+
+      - name: BOM matches the schematic
         run: |
           cd hardware && python3 make_bom.py
           git diff --exit-code ../docs/bom.csv
-      - name: Outline regenerates identically
+
+      - name: Connection tables match the schematic
         run: |
-          cd mechanical && python3 butterfly_outline.py
-          git diff --exit-code butterfly_outline.svg butterfly_outline.dxf butterfly_edge_cuts.txt
+          cd hardware && python3 make_connections.py
+          git diff --exit-code ../docs/connections.md
+
+      - name: Block diagram is current
+        run: |
+          cd hardware && python3 make_block_diagram.py
+          git diff --exit-code ../docs/block-diagram.svg
+
+      - name: Outline and 3D files regenerate identically
+        run: |
+          cd mechanical
+          python3 butterfly_outline.py
+          python3 make_3d.py
+          git diff --exit-code butterfly_outline.svg butterfly_outline.dxf \
+                               butterfly_edge_cuts.txt butterfly_board.stl butterfly_stand.stl
